@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="icon" href="Spotify_icon-icons.com_66783.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="Logo"><a href="#"><img src="images/Spotify_Logo.png" alt="Spotify Logo">Spotify</a></li>
+                <li><a href="https://www.linkedin.com/in/abhishek-goyal-7b229120a/">Made By - Abhishek Goyal</a></li>
+            </ul>
+        </nav>
+        <main class="songs">
+            <div class="preview">
+                <img id="wall" src="images/Bhool_Bhulaiyaa_2.jpg" alt="Bhool_Bhulaiyaa_2.jpg">
+            </div>
+        </main>
+    </header>
+    <footer>
+        <div class="progress" id="progress">
+            <input type="range" name="song_progress" id="song_progress" min="0" max="500" value="0">
+        </div>
+        <div class="controls">
+            <i id = 'previous' class="fa-2x fa-solid fa-backward-step"></i>
+            <i id = 'play' class="fa-3x fa-regular fa-circle-play"></i>
+            <i id = 'next' class="fa-2x fa-solid fa-forward-step"></i>
+            <div id="remainingDuration">
+                <!-- 0:00/0:00 -->
+            </div>
+        </div>
+        
+    </footer>
+    <script src="https://kit.fontawesome.com/aa4546a40f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

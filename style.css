@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+body header{
+    min-height: 84vh;
+}
+
+nav ul img{
+    width: 50px;
+}
+
+nav ul {
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+body nav ul li a{
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+body nav ul li a:hover{
+    color: blanchedalmond;
+}
+
+#Logo{
+font-weight: bold;
+font-size: 1.1rem;
+}
+.songs{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.preview img{
+    width: 58vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    padding: 12px 0;
+    position: sticky;
+}
+#song_progress{
+    width: 80vw;
+    cursor:pointer;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px ;
+}
+.controls i{
+    margin:0 10px;
+    cursor: pointer;
+}
+#remainingDuration{
+    color: white;
+    right:10vw;
+    position:absolute;
+}
